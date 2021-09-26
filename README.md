@@ -3,11 +3,17 @@
 
 This project tries to connect 2 BMP280 to an ESP8266.
 
+Google says: The pressure in water increases by 1bar for every 10m depth.
+Ambient pressure is 1 bar typically and changes with weather.
+So we need to measure a pressure of up to 2 bar, and correct for ambient pressure variations.
+(1 bar = 100kPa = 1000hPa).
+The 1100hPa (=110kPa) is therefore sufficient to measure 1m Water. We will see how much depth the sensor is able to measure. 
+
 ## BMP280
 
 Datasheet for the BMP280 is here: https://www.bosch-sensortec.com/products/environmental-sensors/pressure-sensors/bmp280/#documents
 
-Rated 300..1100hPa (9000m above ... 500m below sea level)
+Rated 300..1100hPa (9000m above ... 500m below sea level) (or 1m of water @ sea level)
 
 Voltage: 1,8V typ, max 3.6V (so 3.3V should be fine)
 
