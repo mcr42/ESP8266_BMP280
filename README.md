@@ -27,6 +27,8 @@ Bosch recommends to use their calculation code on https://github.com/BoschSensor
 My ESP8266 version is an ESP12E, mounted to one of those white boards that are prepared for a Holtek HT7333 3,3V LDO.
 However, I may use an external 3,3V regulator, as the board has no 3,3V output needed for the BMP280s, and I have those boards laying around anyway.
 
+![ESP12E.jpg](docu/ESP12E.jpg)
+
 Quickstart-Guides [here](https://www.instructables.com/Getting-Started-with-the-ESP8266-ESP-12/) (on my board GPIO5/4 are switched) and [here](https://bennthomsen.wordpress.com/iot/iot-things/esp8266-wifi-soc/esp8266-getting-started-with-arduino-ide/). Some quirks are discribed unter https://www.letscontrolit.com/wiki/index.php/Basics:_ESP8266_Types_and_Boards 
 
 I'm not certain which I2C tutorial I will use, starting points may be
