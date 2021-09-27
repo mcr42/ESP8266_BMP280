@@ -5,9 +5,9 @@ This project tries to connect 2 BMP280 to an ESP8266.
 
 Google says: The pressure in water increases by 1bar for every 10m depth.
 Ambient pressure is 1 bar typically and changes with weather.
-So we need to measure a pressure of up to 2 bar, and correct for ambient pressure variations.
+So for 10m of water we need to measure a pressure of up to 2 bar, and correct for ambient pressure variations.
 (1 bar = 100kPa = 1000hPa).
-The 1100hPa (=110kPa) is therefore sufficient to measure 1m Water. We will see how much depth the sensor is able to measure. 
+The 1100hPa (=110kPa) is therefore sufficient to only measure 1m Water, for 10m we would need 2bar = 200kPa = 2000hPa. We will see how much depth the sensor is able to measure. 
 
 ## BMP280
 
