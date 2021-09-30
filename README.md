@@ -56,4 +56,6 @@ There's a lot of tutorial how to flash NodeMCU like [this one](https://www.best-
 
 [NodeMCU I2C module](https://nodemcu.readthedocs.io/en/release/modules/i2c/)
 
+There's already projects with NodeMCU [using an BMP280 alone](http://www.esp8266learning.com/esp8266-bmp280-sensor-example.php) or [with a display](https://simple-circuit.com/nodemcu-esp8266-bmp280-sensor-st7789-tft/).
+
 (In case it doesn't work, one might also try [MicroPython](https://micropython.org/download/esp8266/) .)
