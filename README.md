@@ -28,7 +28,7 @@ Bosch recommends to use their calculation code on https://github.com/BoschSensor
 
 My ESP8266 version is an ESP12E, mounted to one of those white boards that are prepared for a Holtek HT7333 3,3V LDO.
 However, I may use an external 3,3V regulator, as the board has no 3,3V output needed for the BMP280s, and I have those boards laying around anyway.
-ESP download tool says, the module has 32MBit (=4MB) Flash, but the bootloader says 8MBit (=1MB).
+ESP download tool says, the module has 32MBit (=4MB) Flash, but the bootloader says 8MBit (=1MB). [esptool.py flash_id](https://github.com/espressif/esptool) tells me the id to be 4016, which according to [this table](https://review.coreboot.org/plugins/gitiles/flashrom/+/refs/heads/master/flashchips.h) is an AMIC_A25LQ032, 8MBit QSPI 100MHz flash.
 The pre-installed firmware is Espressif AT-Firmware 1.3.0.2.
 
 ![ESP12E.jpg](docu/ESP12E.jpg)
