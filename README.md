@@ -50,8 +50,10 @@ The ESP download tool disagrees, an says it were 32MBit. So maybe 80MHz are supp
 ## NodeMCU firmware
 
 The AT firmware seems to be a client-based approach (it relies on commands coming in to do something). What I want is something that works on its own, so we need to switch to a different firmware. There's some cool projects laying around there, I found the NodeMCU being good documented and broadly supported. It also has a I2C software module (as there is no I2C hardware), so we can just hook up the sensor to any GPIO and are ready to go.
+There's a lot of tutorial how to flash NodeMCU like [this one](https://www.best-microcontroller-projects.com/nodemcu-firmware.html) or [this one (German)](https://www.mikrocontroller.net/articles/ESP8266_nodeMCU_Lua).
 
 [NodeMCU documentation](https://nodemcu.readthedocs.io)
 
 [NodeMCU I2C module](https://nodemcu.readthedocs.io/en/release/modules/i2c/)
 
+(In case it doesn't work, one might also try [MicroPython](https://micropython.org/download/esp8266/) .)
