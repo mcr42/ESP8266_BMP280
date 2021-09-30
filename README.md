@@ -39,9 +39,8 @@ Quickstart-Guides [here](https://www.instructables.com/Getting-Started-with-the-
 A good and detailed starter is 
 Some quirks are discribed unter https://www.letscontrolit.com/wiki/index.php/Basics:_ESP8266_Types_and_Boards 
 
+The outdated PL2303 I had did not work at first, there are driver problems (overcome by [applying this fix](http://www.totalcardiagnostics.com/support/Knowledgebase/Article/View/92/20/prolific-usb-to-serial-fix-official-solution-to-code-10-error)) but those are known to be quirky. Better use an CH340G, those are cheap and known to work more reliable.
 My MobaXTerm did not receive anything from the ESP32, but the Arduino IDE did.
-The bootloader tells me the Flash has 40 MHz, but it also says it were 8MBit.
-The ESP download tool disagrees, an says it were 32MBit. So maybe 80MHz are supported.
 
 [Espressiv AT-Firmware Download](https://docs.espressif.com/projects/esp-at/en/release-v2.2.0.0_esp8266/AT_Binary_Lists/ESP8266_AT_binaries.html)
 
