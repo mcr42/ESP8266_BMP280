@@ -47,6 +47,10 @@ The ESP download tool disagrees, an says it were 32MBit. So maybe 80MHz are supp
 
 [Espressiv AT-Firmware Documentation](https://docs.espressif.com/projects/esp-at/en/release-v2.2.0.0_esp8266/AT_Command_Set/index.html)
 
-I'm not certain which I2C tutorial I will use, starting points may be
-- https://diyi0t.com/i2c-tutorial-for-arduino-and-esp8266/ or
-- http://wp.andreas.bieri.name/myblog/2016/07/08/meine-arduino-i2c-tests-blinkm-und-rtc-module/ 
+## NodeMCU firmware
+
+The AT firmware seems to be a client-based approach (it relies on commands coming in to do something). What I want is something that works on its own, so we need to switch to a different firmware. There's some cool projects laying around there, I found the NodeMCU being good documented and broadly supported. It also has a I2C software module (as there is no I2C hardware), so we can just hook up the sensor to any GPIO and are ready to go.
+
+[NodeMCU documentation](https://nodemcu.readthedocs.io)
+[NodeMCU I1C module](https://nodemcu.readthedocs.io/en/release/modules/i2c/)
+
